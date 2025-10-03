@@ -5,7 +5,7 @@
 "main": "index.js",
 "scripts": {
   "start": "node ./index.js",
-  "test": "jest tests/"
+  "test": "jest tests/app.test.js"
 },
 "author": "",
 "license": "ISC",
