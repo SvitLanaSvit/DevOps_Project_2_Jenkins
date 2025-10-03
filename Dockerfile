@@ -9,7 +9,7 @@ RUN npm install
 COPY . .
 
 # Expose the port the app runs on
-EXPOSE 80
+EXPOSE 3000
 
 # Use ENTRYPOINT with CMD to allow test execution
 ENTRYPOINT ["npm"]
